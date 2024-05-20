@@ -41,7 +41,7 @@ const WordItems = ({data , time ,result }) => {
 
 
   return (
-    <p className={`p-6 relative m-2 text-5xl font-bold ${textStyle}`}>
+    <p className={`p-2 sm:p-6 relative m-2 text-sm sm:text-3xl md:text-5xl font-bold ${textStyle}`}>
         {closeNumber  ? '' : close   }
         {data}
         

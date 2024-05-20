@@ -1,12 +1,5 @@
 {
-    "routes":[
-        {
-            "src":"/",
-            "dest":"/"
-        },
-        {
-            "src":"/game",
-            "dest":"/"
-        }
+    "rewrites":[
+        {"source":"/(.*)" ,"destination":"/"}
     ]
 }
